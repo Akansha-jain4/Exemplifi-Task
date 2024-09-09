@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+	<meta charset="utf-8">
+    <link href="mymenucss.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark" id="reynoldsmenu" >
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" id="reynolds" href="#">Reynolds</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item desktop">
+    
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-auto-close="outside" aria-expanded="false" data-bs-trigger="hover">
+          <span class="icon">
+            <img src="images/Products.svg" class="img-fluid" alt="">
+          </span>
+      <span class="label">Products</span>
+    </a>
+
+    <div class="dropdown-menu mega-menu-dropdown mega-menu-products" aria-labelledby="navbarDropdown1">
+
+      <div class="container">
+
+        
+ 
+
+  <div class="row gy-32 p-32 p-md-32 p-sm-0">
+                <div class="col-12 col-md-4 text-center product-item">
+                  <figure>
+            <img class="img-fluid" alt="Aluminum Foil" loading="lazy" src="images/584541_RW_Std_500x335_card.png" width="260" height="100">
+
+
+          </figure>
+                <p class="menu-sub-title h6"><a href="#" title="Perfect for grilling, baking, and more." class="stretched-link is-active" data-drupal-link-system-path="taxonomy/term/3">Aluminum Foil</a></p>
+        <p>Perfect for grilling, baking, and more.</p>
+      </div>
+                <div class="col-12 col-md-4 text-center product-item">
+                  <figure>
+            <img class="img-fluid" alt="Parchment Paper" loading="lazy" src="images/12inParchmentRoll_packagingHero_1.16.19.png" width="260" height="100">
+
+
+          </figure>
+                <p class="menu-sub-title h6"><a href="#" title="Oven-safe, non-stick performance for baking &amp; roasting." class="stretched-link" data-drupal-link-system-path="taxonomy/term/10">Parchment Paper</a></p>
+        <p>Oven-safe, non-stick performance for baking &amp; roasting.</p>
+      </div>
+                <div class="col-12 col-md-4 text-center product-item">
+                  <figure>
+            <img class="img-fluid" alt="Disposable Bakeware" loading="lazy" src="images/500X335_RK_DssrtBkwr_DS1_ew.png" width="260" height="100">
+
+
+          </figure>
+                <p class="menu-sub-title h6"><a href="#" title="Great for any meal, with no cleanup." class="stretched-link" data-drupal-link-system-path="taxonomy/term/13">Disposable Bakeware</a></p>
+        <p>Great for any meal, with no cleanup.</p>
+      </div>
+                <div class="col-12 col-md-4 text-center product-item">
+                  <figure>
+            <img class="img-fluid" alt="Cooking Bags &amp; Liners" loading="lazy" src="images/500x335_RK_BkngCps_DS1_ew.png" width="260" height="100">
+
+
+          </figure>
+                <p class="menu-sub-title h6"><a href="#" title="Fast &amp; easy cleanup, with no soaking or scrubbing." class="stretched-link" data-drupal-link-system-path="taxonomy/term/256">Cooking Bags &amp; Liners</a></p>
+        <p>Fast &amp; easy cleanup, with no soaking or scrubbing.</p>
+      </div>
+                <div class="col-12 col-md-4 text-center product-item">
+                  <figure>
+            <img class="img-fluid" alt="Wax &amp; Freezer Paper" loading="lazy" src="images/CutriteWaxPaper.png" width="260" height="100">
+
+
+          </figure>
+                <p class="menu-sub-title h6"><a href="#" title="Protect surfaces &amp; keeps food fresh longer." class="stretched-link" data-drupal-link-system-path="taxonomy/term/261">Wax &amp; Freezer Paper</a></p>
+        <p>Protect surfaces &amp; keeps food fresh longer.</p>
+      </div>
+                <div class="col-12 col-md-4 text-center product-item">
+                  <figure>
+            <img class="img-fluid" alt="Other Products" loading="lazy" src="images/RK SCL_Hero Carton 500x335_2.png" width="260" height="100">
+
+
+          </figure>
+                <p class="menu-sub-title h6"><a href="#" title="Butcher Paper, Plastic Wrap, and Baking Cups." class="stretched-link" data-drupal-link-system-path="taxonomy/term/20">Other Products</a></p>
+        <p>Butcher Paper, Plastic Wrap, and Baking Cups.</p>
+      </div>
+        <div class="col-12 text-center product-item">
+      <a href="/products" class="btn btn-rk-primary">
+      </span>
+      </a>
+    </div>
+  </div>
+
+
+
+
+      </div><!--container-->
+
+    </div><!--dropdown-menu-->
+
+	</li>
+    <li class="nav-item desktop">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-auto-close="outside" aria-expanded="false" data-bs-trigger="hover">
+          <span class="icon">
+            <img src="images/Recipes.svg" class="img-fluid" alt="">
+          </span>
+      <span class="label">Recipes</span>
+    </a>
+	</li>
+	
+	<li class="nav-item desktop">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-auto-close="outside" aria-expanded="false" data-bs-trigger="hover">
+          <span class="icon">
+            <img src="images/Tips.svg" class="img-fluid" alt="">
+          </span>
+      <span class="label">Tips & <br> How-tos</span>
+    </a>
+	</li>
+	
+	<li class="nav-item desktop">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-auto-close="outside" aria-expanded="false" data-bs-trigger="hover">
+          <span class="icon">
+            <img src="images/Holidays.svg" class="img-fluid" alt="">
+          </span>
+      <span class="label">Holidays & <br> Entertaining</span>
+    </a>
+	</li>
+	
+	<li class="nav-item desktop">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-auto-close="outside" aria-expanded="false" data-bs-trigger="hover">
+          <span class="icon">
+            <img src="images/Story.svg" class="img-fluid" alt="">
+          </span>
+      <span class="label">Our Story</span>
+    </a>
+	</li>
+	
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <span class="icon">
+            <img src="images/header_search.svg" class="img-fluid" alt="">
+          </span>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+  </body>
+</html>
