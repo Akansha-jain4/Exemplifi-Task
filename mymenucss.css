@@ -69,8 +69,9 @@ span.icon {
 li.nav-item.desktop:hover .dropdown-menu {
     display: block !important;
     position: absolute;
-    top: 200px;
-    left: 0px !important;
+    top: 185px;
+        left: 0px !important;
+        width: 100%;
 }
 }
 @media only screen and (max-width: 992px) {
@@ -226,3 +227,13 @@ li.nav-item.desktop:hover .dropdown-menu {
     background: url(images/hamburger.svg) no-repeat center;
     background-size: 24px auto;
 }
+    #reynoldsmenu .navbar-nav .nav-item:not(:last-child) > .nav-link::before {
+        content: "";
+        position: absolute;
+        height: 35px;
+        width: 2px;
+        background-color: rgba(255, 255, 255, 0.23);
+        right: -16px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
