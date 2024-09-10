@@ -8,12 +8,11 @@
     font-family: cursive;
     font-style: italic;
 }
-.container-fluid {
-    padding: 20px;
-}
+
 .navbar-dark .navbar-nav a.nav-link {
   color: #ffffff;
   font-size: 1.1em;
+  padding-bottom:50px;
 }
 .dropdown-menu {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -64,6 +63,12 @@ span.icon {
 }
  .navbar-nav .nav-item > .nav-link br{
 	display:none;
+}
+li.nav-item.desktop:hover .dropdown-menu {
+    display: block !important;
+    position: absolute;
+    top: 200px;
+    left: 0px !important;
 }
 }
 @media only screen and (max-width: 992px) {

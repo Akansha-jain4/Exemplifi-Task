@@ -9,11 +9,12 @@
     font-style: italic;
 }
 .container-fluid {
-    padding: 20px;
+    padding-bottom: 20px;
 }
 .navbar-dark .navbar-nav a.nav-link {
   color: #ffffff;
   font-size: 1.1em;
+  padding-bottom:50px;
 }
 .dropdown-menu {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
