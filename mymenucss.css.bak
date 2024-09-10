@@ -69,8 +69,13 @@ span.icon {
 li.nav-item.desktop:hover .dropdown-menu {
     display: block !important;
     position: absolute;
-    top: 200px;
-    left: 0px !important;
+    top: 185px;
+        left: 0px !important;
+        width: 100%;
+}
+#reynoldsmenu .navbar-toggler .navbar-toggler-icon {
+    background: url('/images/hamburger.svg') no-repeat center;
+    background-size: 24px auto;
 }
 }
 @media only screen and (max-width: 992px) {

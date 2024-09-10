@@ -73,6 +73,14 @@ li.nav-item.desktop:hover .dropdown-menu {
         left: 0px !important;
         width: 100%;
 }
+#reynoldsmenu .navbar-toggler .navbar-toggler-icon {
+    background: url(images/hamburger.svg) no-repeat center;
+    background-size: 24px auto;
+    background-color: #001489;
+    position: absolute;
+    right: 7%;
+    top: 10%;
+}
 }
 @media only screen and (max-width: 992px) {
   .dropdown-menu.show {
